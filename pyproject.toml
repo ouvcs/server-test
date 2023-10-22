@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "server-test"
+version = "0.1.0"
+description = "Testing of the server of OUVC."
+authors = ["OUVC <virtual.country.standart@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
